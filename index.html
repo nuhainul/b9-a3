@@ -28,7 +28,7 @@
 <body class="bg-white">
 
     <!-- header section goes here containing navbar & hero-banner -->
-    <header class="container mx-auto  border-blue-600 border-2" id="">
+    <header class="container mx-auto  border-blue-100 border-2" id="">
 
         <!-- 1. navbar (bonus) section starts -->
         <nav class="navbar" id="">
@@ -60,11 +60,11 @@
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal px-1">
-                        <li><a class="text-red-600 font-bold">lg:Home</a></li>
-                        <li><a>lg:About</a></li>
-                        <li><a>lg:Pages</a></li>
-                        <li><a>lg:Blog</a></li>
-                        <li><a>lg:Contact</a></li>
+                        <li><a class="text-red-600 font-bold">Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Pages</a></li>
+                        <li><a>Blog</a></li>
+                        <li><a>Contact</a></li>
                     </ul>
                 </div>
 
@@ -72,8 +72,8 @@
                     <div class="hidden lg:inline-block mr-4">
                         <i class="fa-solid fa-magnifying-glass"></i>
                     </div>
-                    <div class="navbar-end">
-                        <a class="btn bg-[#FF4240] text-white">Get Ticket</a>
+                    <div class="navbar-end w-36">
+                        <a class="btn bg-[#FF4240] text-white text-xl">Get Ticket</a>
                     </div>
                 </div>
 
@@ -82,7 +82,7 @@
         <!-- navbar ends -->
 
         <!-- 2. hero-banner section starts -->
-        <section class="hero-banner  border-red-600 border-2" id="">
+        <section class="hero-banner" id="">
             <div class="">
                 <!-- hero carousel starts -->
                 <div class="carousel w-full">
@@ -90,7 +90,7 @@
                     <div id="slide1" class="carousel-item relative w-full">
                         <img src="./img/1.png" class="w-full" />
                         <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                            <a href="#slide4" class="btn btn-circle">❮</a>
+                            <a href="#slide2" class="btn btn-circle">❮</a>
                             <a href="#slide2" class="btn btn-circle">❯</a>
                         </div>
                     </div>
@@ -99,7 +99,7 @@
                         <img src="./img/4.png" class="w-full" />
                         <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                             <a href="#slide1" class="btn btn-circle">❮</a>
-                            <a href="#slide3" class="btn btn-circle">❯</a>
+                            <a href="#slide1" class="btn btn-circle">❯</a>
                         </div>
                     </div>
 
@@ -107,11 +107,13 @@
                 <!-- hero carousel ends -->
             </div>
 
-            <div class="">
-                <h3 class="">Meet all the heroes from the field</h3>
-                <!-- replace lorem -->
-                <p class="">More than a team, a family. Cheer, chant, connect. Your passion drives our game. Be part of
-                    the roar. Sweat, skill, dream big.</p>
+            <div class="relative mt-4">
+                <div class="bg-gray-900 text-white p-8 rounded-lg lg:w-[50%] absolute lg:bottom-10 lg:right-10">
+                    <h3 class="text-2xl font-extrabold">Meet all the heroes from the field</h3>
+                    <!-- replace lorem -->
+                    <p class="text-gray-300">More than a team, a family. Cheer, chant, connect. Your passion drives our game. Be part of
+                        the roar. Sweat, skill, dream big.</p>
+                </div>
             </div>
         </section>
 
